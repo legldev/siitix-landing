@@ -1,4 +1,5 @@
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { ButtonLink } from "../ButtonLink/ButtonLink";
 
 type Props = {
   image: string;
@@ -22,7 +23,7 @@ const EventCard = ({
   onButtonClick,
 }: Props) => (
   <Container>
-    <Row>
+    <Row className="eventCardRow">
       <Col md={6} className={reverse ? "order-md-2" : ""}>
         <Image src={require(`../../assets/${image}`)} fluid />
       </Col>
@@ -30,9 +31,7 @@ const EventCard = ({
         <h2>{title}</h2>
         <h4>{dateLocation}</h4>
         <p>{text}</p>
-        <Button variant={buttonVariant} onClick={onButtonClick}>
-          {buttonText}
-        </Button>
+        <ButtonLink text="Get Tickets" onButtonClick={onButtonClick} />
       </Col>
     </Row>
   </Container>

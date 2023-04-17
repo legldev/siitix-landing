@@ -11,6 +11,45 @@ export const ourLeagues = [
   },
 ];
 
+export const carouselEvents = [
+  {
+    dateLocation: "May 20-21 - Arlington, TX",
+    title: "Hot Summer Classic",
+    description:
+      "The Hot Summer Classic powered by Prospects Youth League (PYL) in partnership with Prospects by SI Football, The Pinnacle National Championships & Rival Sports Gear is the best of ALL 3 worlds with tournament brackets for Flag, 7v7, & Tackle Football!",
+    link: "https://www.sitickets.com/",
+    image: "hotsummer.png",
+    imageCarousel: "hotsummercar.png",
+  },
+  {
+    dateLocation: "June 25 - Jacksonville, FL",
+    title: "Battle of the Bridge Youth Football Showcase",
+    description:
+      "The Battle of the Bridge Youth Football Showcase in Jacksonville, Florida will be one for the ages!! The debate for who reigns supreme in youth football in Duval Country will finally be settled Sunday, June 25th at the pristine Bolles High School campus. Wheter a team is from the North, South, East or West side of the River City, youth football fans will finally witness some of the top talent battle it out on the gridiron!!",
+    link: "https://www.sitickets.com/",
+    image: "battleofthebridge.png",
+    imageCarousel: "battlebrigdecar.png",
+  },
+  {
+    dateLocation: "July 28-30 - Arlington, TX",
+    title: "Texas Gridiron Classic",
+    description:
+      "The Texas Gridiron Classic powered by Prospects Youth League in partnership with Prospects by Sports Illustrated is a national ranking tournament. “The Lone Star Showdown” will include tournaments for Flag and Tackle Football, as part of the Pinnacle Preseason National Champ Series located at the Harold Patterson Sports Center.",
+    link: "https://www.sitickets.com/",
+    image: "gridironclassictx.png",
+    imageCarousel: "txgridclassiccar.png",
+  },
+  {
+    dateLocation: "August 4-6 - New Orleans, LA",
+    title: "Louisiana Gridiron Classic",
+    description:
+      "The Louisiana Gridiron Classic is a national ranking tournament for Youth Tackle Football. “The Battle ‘N Da Boot” will consist of teams 6U to 12U. The tournament will be held at Joe Brown Stadium in New Orleans. The championship game winner will earn a bid in the Pinnacle National Championships by Sports Illustrated.",
+    link: "https://www.sitickets.com/",
+    image: "louisianagridironclassic.png",
+    imageCarousel: "louclassiccar.png",
+  },
+];
+
 export const dataset = [
   {
     dateLocation: "May 20-21 - Arlington, TX",

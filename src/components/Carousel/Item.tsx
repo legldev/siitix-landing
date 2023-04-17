@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { ButtonLink } from "../ButtonLink/ButtonLink";
 
 type Props = {
   image: string;
@@ -10,14 +11,12 @@ type Props = {
 
 const Item = ({ image, dateLocation, title, onButtonClick }: Props) => {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ width: "18rem", height: "100%", textAlign: "center" }}>
       <Card.Img variant="top" src={require(`../../assets/${image}`)} />
-      <Card.Body>
+      <Card.Body style={{ backgroundColor: "#012E40", color: "#F2F2F2" }}>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{dateLocation}</Card.Text>
-        <Button variant="primary" onClick={onButtonClick}>
-          Get Tickets
-        </Button>
+        <ButtonLink text="Get Tickets" onButtonClick={onButtonClick} />
       </Card.Body>
     </Card>
   );
