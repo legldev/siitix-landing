@@ -14,7 +14,7 @@ function Home() {
       <Row>
         <Header />
       </Row>
-      <Row>
+      <Row className="maineventsRow">
         <MainEventsCards />
       </Row>
       <Row>

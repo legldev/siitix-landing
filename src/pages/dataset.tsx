@@ -1,11 +1,13 @@
 export const ourLeagues = [
   {
-    title: "Prospects Footbal",
+    subtitle: "Football",
+    title: "Prospects",
     link: "https://www.sitickets.com/",
     image: "football.png",
   },
   {
-    title: "Prospects Cheer",
+    subtitle: "Cheer",
+    title: "Prospects",
     link: "https://www.sitickets.com/",
     image: "cheer.png",
   },

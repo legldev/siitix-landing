@@ -32,7 +32,7 @@ body {
 .title-solano {
   text-transform: uppercase;
   font-size: 70px;
-  line-height: 66px;
+  line-height: 50px;
   font-family: "Teko", sans-serif;
   font-weight: 700;
   margin-top: 1em;
@@ -43,7 +43,7 @@ body {
 }
 
 .eventCardRow {
-  padding: 5em;
+  padding: 4.5em;
 }
 
 .red-btn {
@@ -58,4 +58,34 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+}
+
+.maineventsRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maineventCards-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 50px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  margin-top: 0.2em;
+  text-align: center;
+  color: #F2F2F2;
+  letter-spacing: 5px;
+}
+
+.maineventCards-subtitle {
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 50px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+  text-align: center;
+  color: #F2F2F2;
+  letter-spacing: 8px;
 }

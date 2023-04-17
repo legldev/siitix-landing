@@ -11,7 +11,16 @@ export const MainEventsCards = () => {
     <>
       <h1 className="title-solano">Our Leagues</h1>
       {ourLeagues.map((event) => (
-        <Card style={{ width: "45%", textAlign: "center", margin: "1em" }}>
+        <Card
+          style={{
+            width: "45%",
+            textAlign: "center",
+            margin: "1em",
+            border: "none",
+            background: "none",
+            borderRadius: "0",
+          }}
+        >
           <Card.Img
             variant="top"
             src={require(`../../assets/${event.image}`)}
@@ -21,9 +30,15 @@ export const MainEventsCards = () => {
               textAlign: "center",
               backgroundColor: "#012E40",
               color: "#F2F2F2",
+              paddingBottom: "2em",
             }}
           >
-            <Card.Title>{event.title}</Card.Title>
+            <Card.Title className="maineventCards-title">
+              {event.title}
+            </Card.Title>
+            <Card.Subtitle className="maineventCards-subtitle">
+              {event.subtitle}
+            </Card.Subtitle>
             <ButtonLink
               text="Get Tickets"
               onButtonClick={() => handleClick(event.link)}
