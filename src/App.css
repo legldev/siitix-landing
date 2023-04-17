@@ -89,3 +89,52 @@ body {
   color: #F2F2F2;
   letter-spacing: 8px;
 }
+
+.eventTitle {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  margin-top: 0.5em;
+  text-align: left;
+  color: #000000;
+  letter-spacing: 5px;
+}
+
+.eventDateLocation {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+  color: #D94E41;
+}
+.eventDescription {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin-top: 1em;
+  line-height: 20px;
+  margin-bottom: 2em;
+  text-align: left;
+  color: #000000;
+}
+
+.carouselTitle {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  margin-top: 0.5em;
+  color: #ffffff;
+}
+
+.carouselDateLocation {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}

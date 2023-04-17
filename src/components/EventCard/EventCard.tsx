@@ -28,9 +28,9 @@ const EventCard = ({
         <Image src={require(`../../assets/${image}`)} fluid />
       </Col>
       <Col md={6} className={reverse ? "order-md-1" : ""}>
-        <h2>{title}</h2>
-        <h4>{dateLocation}</h4>
-        <p>{text}</p>
+        <h2 className="eventTitle">{title}</h2>
+        <h4 className="eventDateLocation">{dateLocation}</h4>
+        <p className="eventDescription">{text}</p>
         <ButtonLink text="Get Tickets" onButtonClick={onButtonClick} />
       </Col>
     </Row>
